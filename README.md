@@ -23,7 +23,7 @@ If you think a certain mob should be implemented, or have thought of a way to im
 
 ## Installation
 
-You can install this data pack by downloading the zip under [releases](https://github.com/AnalogCyan/More-Vanilla-Mobs/releases), dropping it into your world's data packs screen/folder, and enabling it.
+You can install this data pack by downloading the lastest `More-Vanilla-Mobs.zip` under [releases](https://github.com/AnalogCyan/More-Vanilla-Mobs/releases), dropping it into your world's data packs screen/folder, and enabling it.
 
 ## License
 
