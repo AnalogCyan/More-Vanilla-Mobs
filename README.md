@@ -5,15 +5,30 @@
 
 ## Mobs
 
+
+*Mob Type* indicates which mob's spawn pool it is part of.
+
+*Spawn Chance* indicates the chance it will spawn where said mob type would.
+
+### Java/Bedrock
+
+The following mobs have been added as implemented in Java/Bedrock.
+
 | Mob                    | Mob Type        | Spawn Chance  |
 | ---------------------- | --------------- | ------------- |
 | Wither Skeleton Archer | Wither Skeleton | 25%           |
 | Illusioner             | Evoker          | 5%            |
 | Killer Bunny           | Rabbit          | 0.1%          |
 
-*Mob Type* indicates which mob's spawn pool it is part of.
+### Dungeons
 
-*Spawn Chance* indicates the chance it will spawn where said mob type would.
+The following mobs have been added as implemented in Dungeons. These mobs are disabled by default.
+
+You can enable these with the command `/function vanillamobs:dungeons_enable`, and disable them again with `/function vanillamobs:dungeons_disable`.
+
+| Mob                    | Mob Type        | Spawn Chance  |
+| ---------------------- | --------------- | ------------- |
+| Wither Skeleton Archer | Wither Skeleton | 25%           |
 
 ### Why didn't you implement X mob?
 

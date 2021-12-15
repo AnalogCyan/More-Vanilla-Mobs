@@ -1,0 +1,1 @@
+scoreboard players set #dungeons more_vanilla_mobs 0
