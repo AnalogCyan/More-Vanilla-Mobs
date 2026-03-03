@@ -1,0 +1,5 @@
+execute as @e[type=minecraft:wither_skeleton, tag=!unchecked, tag=!checked] run tag @s add unchecked
+execute as @e[type=minecraft:wither_skeleton, tag=unchecked, predicate=vanillamobs:wsarcher_chance] run data merge entity @s {equipment:{mainhand:{id:"minecraft:bow",count:1}}}
+execute if score #dungeons more_vanilla_mobs matches 1 as @e[type=minecraft:wither_skeleton, tag=unchecked, predicate=vanillamobs:wsarcher_chance] run data merge entity @s {equipment:{mainhand:{id:"minecraft:bow",count:1},offhand:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:custom_model_data":{floats:[4523480.0f]},"minecraft:custom_name":'{text:"Decay Arrow",italic:false}',"minecraft:tooltip_display":{hidden_components:["minecraft:potion_contents"]},"minecraft:potion_contents":{custom_effects:[{id:"minecraft:wither",amplifier:1,duration:120,show_particles:true}],custom_color:3538986}}}}}
+execute as @e[type=minecraft:wither_skeleton, tag=unchecked] run tag @s add checked
+execute as @e[type=minecraft:wither_skeleton, tag=unchecked, tag=checked] run tag @s remove unchecked

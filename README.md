@@ -1,7 +1,7 @@
 
 # More Vanilla Mobs
 
-*More Vanilla Mobs* is a data pack for Minecraft 1.17+ that implements some of the mobs that technically exist in the game, but don't appear in survival.
+*More Vanilla Mobs* is a data pack for Minecraft 26.1 Snapshot 10 that implements some of the mobs that technically exist in the game, but don't appear in survival.
 
 ## Mobs
 
